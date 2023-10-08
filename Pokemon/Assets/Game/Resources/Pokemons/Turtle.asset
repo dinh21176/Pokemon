@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5405f63a95b28f46b86b02450bce053, type: 3}
+  m_Name: Turtle
+  m_EditorClassIdentifier: 
+  name: Turtle
+  description: 
+  frontSprite: {fileID: 21300000, guid: 818cf159951cf9a4e8e810b2bbab4096, type: 3}
+  backSprite: {fileID: 21300000, guid: d819d29c71518d340b52028b17af51c2, type: 3}
+  type1: 3
+  type2: 0
+  MaxHp: 60
+  attack: 45
+  spAttack: 50
+  defense: 52
+  spDefense: 55
+  speed: 40
+  expYield: 60
+  growthRate: 1
+  catchRate: 255
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: ab1932eee91e051479a683ee33cde2aa, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: d871bd41638cb7643aebc20b69168986, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: de844560a232499488fe8dd1bf50c2e5, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 71ecaf0e6c80141438fe7c64bb2b49ea, type: 2}
+    level: 1
